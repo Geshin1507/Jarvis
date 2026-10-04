@@ -1,0 +1,107 @@
+2026-09-27 22:17:43 | INFO    | jarvis.db | database initialized at sqlite:///D%3A/jj/data/jarvis.db
+2026-09-27 22:17:47 | INFO    | jarvis.main | startup checks completed in 4.86s (3 ok, 2 failed)
+2026-09-27 22:17:47 | INFO    | jarvis.main | startup check directories: ok (D:\jj\data)
+2026-09-27 22:17:47 | INFO    | jarvis.main | startup check database: ok (sqlite:///./data/jarvis.db)
+2026-09-27 22:17:47 | WARNING | jarvis.main | startup check seed: FAILED ('status' is an invalid keyword argument for Role)
+2026-09-27 22:17:47 | INFO    | jarvis.main | startup check ollama: ok (v0.34.4 model=gemma4:latest)
+2026-09-27 22:17:47 | WARNING | jarvis.main | startup check registry: FAILED (high-risk tool 'read_student_data' must require approval)
+2026-09-27 22:18:06 | INFO    | jarvis.db | database initialized at sqlite:///D%3A/jj/data/jarvis.db
+2026-09-27 22:18:09 | INFO    | jarvis.main | startup checks completed in 3.29s (3 ok, 2 failed)
+2026-09-27 22:18:09 | INFO    | jarvis.main | startup check directories: ok (D:\jj\data)
+2026-09-27 22:18:09 | INFO    | jarvis.main | startup check database: ok (sqlite:///./data/jarvis.db)
+2026-09-27 22:18:09 | WARNING | jarvis.main | startup check seed: FAILED ('status' is an invalid keyword argument for Role)
+2026-09-27 22:18:09 | INFO    | jarvis.main | startup check ollama: ok (v0.34.4 model=gemma4:latest)
+2026-09-27 22:18:09 | WARNING | jarvis.main | startup check registry: FAILED (high-risk tool 'read_student_data' must require approval)
+2026-09-27 22:18:09 | INFO    | jarvis.scheduler | scheduler started with 7 local tasks
+2026-09-27 22:18:09 | INFO    | jarvis.main | scheduler: {'running': True, 'tasks': ['daily_health_check', 'followup_reminders', 'stale_source_detection', 'knowledge_reindex', 'database_backup', 'pending_approval_notification', 'weekly_analytics_report']}
+2026-09-27 22:18:10 | INFO    | jarvis.audit | audit action=auth.login_failed outcome=denied actor=None target=None/None workspace=None
+2026-09-27 22:18:10 | INFO    | jarvis.main | handled error unauthenticated: Invalid email or password.
+2026-09-27 22:18:10 | INFO    | jarvis.main | handled error unauthenticated: Authentication required.
+2026-09-27 22:18:10 | INFO    | jarvis.main | handled error unauthenticated: Authentication required.
+2026-09-27 22:18:10 | INFO    | jarvis.main | handled error unauthenticated: Authentication required.
+2026-09-27 22:18:10 | INFO    | jarvis.main | handled error unauthenticated: Authentication required.
+2026-09-27 22:18:10 | INFO    | jarvis.main | handled error unauthenticated: Authentication required.
+2026-09-27 22:18:10 | INFO    | jarvis.main | handled error unauthenticated: Authentication required.
+2026-09-27 22:18:10 | INFO    | jarvis.main | handled error unauthenticated: Authentication required.
+2026-09-27 22:18:10 | INFO    | jarvis.main | handled error unauthenticated: Authentication required.
+2026-09-27 22:18:10 | INFO    | jarvis.main | handled error unauthenticated: Authentication required.
+2026-09-27 22:18:10 | INFO    | jarvis.main | handled error unauthenticated: Authentication required.
+2026-09-27 22:18:10 | INFO    | jarvis.main | handled error unauthenticated: Authentication required.
+2026-09-27 22:18:25 | INFO    | jarvis.db | database initialized at sqlite:///D%3A/jj/data/jarvis.db
+2026-09-27 22:18:35 | INFO    | jarvis.db | database initialized at sqlite:///D%3A/jj/data/jarvis.db
+2026-09-27 22:18:52 | INFO    | jarvis.db | database initialized at sqlite:///D%3A/jj/data/jarvis.db
+2026-09-27 22:18:55 | INFO    | jarvis.main | startup checks completed in 3.10s (4 ok, 1 failed)
+2026-09-27 22:18:55 | INFO    | jarvis.main | startup check directories: ok (D:\jj\data)
+2026-09-27 22:18:55 | INFO    | jarvis.main | startup check database: ok (sqlite:///./data/jarvis.db)
+2026-09-27 22:18:55 | WARNING | jarvis.main | startup check seed: FAILED ('status' is an invalid keyword argument for SystemSetting)
+2026-09-27 22:18:55 | INFO    | jarvis.main | startup check ollama: ok (v0.34.4 model=gemma4:e2b)
+2026-09-27 22:18:55 | INFO    | jarvis.main | startup check registry: ok (agents and tools validated)
+2026-09-27 22:18:55 | INFO    | jarvis.scheduler | scheduler started with 7 local tasks
+2026-09-27 22:18:55 | INFO    | jarvis.main | scheduler: {'running': True, 'tasks': ['daily_health_check', 'followup_reminders', 'stale_source_detection', 'knowledge_reindex', 'database_backup', 'pending_approval_notification', 'weekly_analytics_report']}
+2026-09-27 22:18:55 | INFO    | jarvis.audit | audit action=auth.login_failed outcome=denied actor=None target=None/None workspace=None
+2026-09-27 22:18:55 | INFO    | jarvis.main | handled error unauthenticated: Invalid email or password.
+2026-09-27 22:18:55 | INFO    | jarvis.main | handled error unauthenticated: Authentication required.
+2026-09-27 22:18:55 | INFO    | jarvis.main | handled error unauthenticated: Authentication required.
+2026-09-27 22:18:55 | INFO    | jarvis.main | handled error unauthenticated: Authentication required.
+2026-09-27 22:18:55 | INFO    | jarvis.main | handled error unauthenticated: Authentication required.
+2026-09-27 22:18:55 | INFO    | jarvis.main | handled error unauthenticated: Authentication required.
+2026-09-27 22:18:55 | INFO    | jarvis.main | handled error unauthenticated: Authentication required.
+2026-09-27 22:18:55 | INFO    | jarvis.main | handled error unauthenticated: Authentication required.
+2026-09-27 22:18:55 | INFO    | jarvis.main | handled error unauthenticated: Authentication required.
+2026-09-27 22:18:56 | INFO    | jarvis.main | handled error unauthenticated: Authentication required.
+2026-09-27 22:18:56 | INFO    | jarvis.main | handled error unauthenticated: Authentication required.
+2026-09-27 22:18:56 | INFO    | jarvis.main | handled error unauthenticated: Authentication required.
+2026-09-27 22:18:56 | INFO    | jarvis.main | handled error unauthenticated: Authentication required.
+2026-09-27 22:18:56 | INFO    | jarvis.main | handled error unauthenticated: Authentication required.
+2026-09-27 22:18:56 | INFO    | jarvis.main | handled error unauthenticated: Authentication required.
+2026-09-27 22:19:03 | INFO    | jarvis.db | database initialized at sqlite:///D%3A/jj/data/jarvis.db
+2026-09-27 22:19:29 | INFO    | jarvis.db | database initialized at sqlite:///D%3A/jj/data/jarvis.db
+2026-09-27 22:19:32 | INFO    | jarvis.main | startup checks completed in 3.31s (5 ok, 0 failed)
+2026-09-27 22:19:32 | INFO    | jarvis.main | startup check directories: ok (D:\jj\data)
+2026-09-27 22:19:32 | INFO    | jarvis.main | startup check database: ok (sqlite:///./data/jarvis.db)
+2026-09-27 22:19:32 | INFO    | jarvis.main | startup check seed: ok (workspaces+3 roles+7 settings+6)
+2026-09-27 22:19:32 | INFO    | jarvis.main | startup check ollama: ok (v0.34.4 model=gemma4:e2b)
+2026-09-27 22:19:32 | INFO    | jarvis.main | startup check registry: ok (agents and tools validated)
+2026-09-27 22:19:32 | INFO    | jarvis.scheduler | scheduler started with 7 local tasks
+2026-09-27 22:19:32 | INFO    | jarvis.main | scheduler: {'running': True, 'tasks': ['daily_health_check', 'followup_reminders', 'stale_source_detection', 'knowledge_reindex', 'database_backup', 'pending_approval_notification', 'weekly_analytics_report']}
+2026-09-27 22:19:33 | INFO    | jarvis.audit | audit action=auth.login outcome=ok actor=a2535121115c4d588cd837df2fc9ba9a target=user/a2535121115c4d588cd837df2fc9ba9a workspace=None
+2026-09-27 22:19:39 | INFO    | jarvis.audit | audit action=command.received outcome=ok actor=a2535121115c4d588cd837df2fc9ba9a target=job/1692f57c91804879a9471e7091151879 workspace=shared
+2026-09-27 22:19:40 | INFO    | jarvis.audit | audit action=command.completed outcome=succeeded actor=a2535121115c4d588cd837df2fc9ba9a target=job/1692f57c91804879a9471e7091151879 workspace=shared
+2026-09-27 22:19:40 | INFO    | jarvis.audit | audit action=command.received outcome=ok actor=a2535121115c4d588cd837df2fc9ba9a target=job/a4280dad7dfe4599a4f36dce61f0c04a workspace=shared
+2026-09-27 22:19:40 | INFO    | jarvis.audit | audit action=tool.system_health outcome=ok actor=a2535121115c4d588cd837df2fc9ba9a target=job/a4280dad7dfe4599a4f36dce61f0c04a workspace=shared
+2026-09-27 22:19:44 | INFO    | jarvis.audit | audit action=command.completed outcome=succeeded actor=a2535121115c4d588cd837df2fc9ba9a target=job/a4280dad7dfe4599a4f36dce61f0c04a workspace=shared
+2026-09-27 22:40:37 | INFO    | jarvis.db | database initialized at sqlite:///D%3A/jj/data/jarvis.db
+2026-09-28 10:22:17 | INFO    | jarvis.db | database initialized at sqlite:///D%3A/jj/data/jarvis.db
+2026-09-28 10:22:22 | INFO    | jarvis.main | startup checks completed in 4.76s (5 ok, 0 failed)
+2026-09-28 10:22:22 | INFO    | jarvis.main | startup check directories: ok (D:\jj\data)
+2026-09-28 10:22:22 | INFO    | jarvis.main | startup check database: ok (sqlite:///./data/jarvis.db)
+2026-09-28 10:22:22 | INFO    | jarvis.main | startup check seed: ok (workspaces+0 roles+0 settings+0)
+2026-09-28 10:22:22 | INFO    | jarvis.main | startup check ollama: ok (v0.34.4 model=gemma4:e2b)
+2026-09-28 10:22:22 | INFO    | jarvis.main | startup check registry: ok (agents and tools validated)
+2026-09-28 10:22:22 | INFO    | jarvis.scheduler | scheduler started with 7 local tasks
+2026-09-28 10:22:22 | INFO    | jarvis.main | scheduler: {'running': True, 'tasks': ['daily_health_check', 'followup_reminders', 'stale_source_detection', 'knowledge_reindex', 'database_backup', 'pending_approval_notification', 'weekly_analytics_report']}
+2026-09-28 10:22:57 | INFO    | jarvis.main | handled error unauthenticated: Authentication required.
+2026-09-28 10:23:32 | INFO    | jarvis.db | database initialized at sqlite:///D%3A/jj/data/jarvis.db
+2026-09-28 10:24:12 | INFO    | jarvis.db | database initialized at sqlite:///D%3A/jj/data/analysis.db
+2026-09-28 10:24:16 | INFO    | jarvis.main | startup checks completed in 4.37s (5 ok, 0 failed)
+2026-09-28 10:24:16 | INFO    | jarvis.main | startup check directories: ok (D:\jj\data)
+2026-09-28 10:24:16 | INFO    | jarvis.main | startup check database: ok (sqlite:///./data/analysis.db)
+2026-09-28 10:24:16 | INFO    | jarvis.main | startup check seed: ok (workspaces+3 roles+7 settings+6)
+2026-09-28 10:24:16 | INFO    | jarvis.main | startup check ollama: ok (v0.34.4 model=gemma4:e2b)
+2026-09-28 10:24:16 | INFO    | jarvis.main | startup check registry: ok (agents and tools validated)
+2026-09-28 10:24:16 | INFO    | jarvis.scheduler | scheduler started with 7 local tasks
+2026-09-28 10:24:16 | INFO    | jarvis.main | scheduler: {'running': True, 'tasks': ['daily_health_check', 'followup_reminders', 'stale_source_detection', 'knowledge_reindex', 'database_backup', 'pending_approval_notification', 'weekly_analytics_report']}
+2026-09-28 11:43:58 | INFO    | jarvis.db | database initialized at sqlite:///D%3A/jj/data/analysis.db
+2026-09-28 11:44:02 | INFO    | jarvis.main | startup checks completed in 3.78s (5 ok, 0 failed)
+2026-09-28 11:44:02 | INFO    | jarvis.main | startup check directories: ok (D:\jj\data)
+2026-09-28 11:44:02 | INFO    | jarvis.main | startup check database: ok (sqlite:///./data/analysis.db)
+2026-09-28 11:44:02 | INFO    | jarvis.main | startup check seed: ok (workspaces+0 roles+0 settings+0)
+2026-09-28 11:44:02 | INFO    | jarvis.main | startup check ollama: ok (v0.34.4 model=gemma4:e2b)
+2026-09-28 11:44:02 | INFO    | jarvis.main | startup check registry: ok (agents and tools validated)
+2026-09-28 11:44:02 | INFO    | jarvis.scheduler | scheduler started with 7 local tasks
+2026-09-28 11:44:02 | INFO    | jarvis.main | scheduler: {'running': True, 'tasks': ['daily_health_check', 'followup_reminders', 'stale_source_detection', 'knowledge_reindex', 'database_backup', 'pending_approval_notification', 'weekly_analytics_report']}
+2026-09-28 11:44:17 | INFO    | jarvis.audit | audit action=auth.login outcome=ok actor=11c10b872a4c470db09aec651c587761 target=user/11c10b872a4c470db09aec651c587761 workspace=None
+2026-09-28 11:45:43 | INFO    | jarvis.audit | audit action=auth.login outcome=ok actor=11c10b872a4c470db09aec651c587761 target=user/11c10b872a4c470db09aec651c587761 workspace=None
+2026-09-28 11:46:24 | INFO    | jarvis.audit | audit action=command.received outcome=ok actor=11c10b872a4c470db09aec651c587761 target=job/8af9dfb570a64c0db6fd9b1eff8bc0b7 workspace=shared
+2026-09-28 11:46:24 | INFO    | jarvis.audit | audit action=tool.system_health outcome=ok actor=11c10b872a4c470db09aec651c587761 target=job/8af9dfb570a64c0db6fd9b1eff8bc0b7 workspace=shared
+2026-09-28 11:46:29 | INFO    | jarvis.audit | audit action=command.completed outcome=succeeded actor=11c10b872a4c470db09aec651c587761 target=job/8af9dfb570a64c0db6fd9b1eff8bc0b7 workspace=shared

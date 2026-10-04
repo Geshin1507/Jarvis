@@ -1,0 +1,45 @@
+[project]
+name = "jarvis-backend"
+version = "0.1.0"
+description = "J.A.R.V.I.S. local-first AI operating system - backend (FastAPI + Ollama + SQLite)"
+requires-python = ">=3.12"
+dependencies = [
+    "apscheduler>=3.10",
+    "beautifulsoup4>=4.12",
+    "fastapi>=0.115",
+    "httpx>=0.27",
+    "pydantic>=2.9",
+    "pydantic-settings>=2.6",
+    "pypdf>=5.1",
+    "python-docx>=1.1",
+    "python-multipart>=0.0.12",
+    "sqlalchemy>=2.0.36",
+    "uvicorn[standard]>=0.32",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.3",
+    "pytest-asyncio>=0.24",
+    "ruff>=0.7",
+]
+
+# Virtual project: the app is run as a module (``uv run python -m app.jarvis_cli``)
+# rather than installed as a distribution.
+[tool.uv]
+package = false
+
+[tool.ruff]
+line-length = 110
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+ignore = ["E501", "B008"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+asyncio_mode = "auto"
+addopts = "-q"
+filterwarnings = ["ignore::DeprecationWarning"]

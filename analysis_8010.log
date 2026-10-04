@@ -1,0 +1,64 @@
+INFO:     Started server process [3640]
+INFO:     Waiting for application startup.
+2026-09-28 11:43:58 | INFO    | jarvis.db | database initialized at sqlite:///D%3A/jj/data/analysis.db
+2026-09-28 11:44:02 | INFO    | jarvis.main | startup checks completed in 3.78s (5 ok, 0 failed)
+2026-09-28 11:44:02 | INFO    | jarvis.main | startup check directories: ok (D:\jj\data)
+2026-09-28 11:44:02 | INFO    | jarvis.main | startup check database: ok (sqlite:///./data/analysis.db)
+2026-09-28 11:44:02 | INFO    | jarvis.main | startup check seed: ok (workspaces+0 roles+0 settings+0)
+2026-09-28 11:44:02 | INFO    | jarvis.main | startup check ollama: ok (v0.34.4 model=gemma4:e2b)
+2026-09-28 11:44:02 | INFO    | jarvis.main | startup check registry: ok (agents and tools validated)
+2026-09-28 11:44:02 | INFO    | jarvis.scheduler | scheduler started with 7 local tasks
+2026-09-28 11:44:02 | INFO    | jarvis.main | scheduler: {'running': True, 'tasks': ['daily_health_check', 'followup_reminders', 'stale_source_detection', 'knowledge_reindex', 'database_backup', 'pending_approval_notification', 'weekly_analytics_report']}
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8010 (Press CTRL+C to quit)
+INFO:     127.0.0.1:53226 - "GET /openapi.json HTTP/1.1" 200 OK
+2026-09-28 11:44:17 | INFO    | jarvis.audit | audit action=auth.login outcome=ok actor=11c10b872a4c470db09aec651c587761 target=user/11c10b872a4c470db09aec651c587761 workspace=None
+INFO:     127.0.0.1:53226 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53226 - "GET /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53226 - "GET /api/system/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53226 - "GET /api/system/hardware HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53226 - "GET /api/system/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53226 - "GET /api/system/agents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53226 - "GET /api/system/tools HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53226 - "POST /api/commands/classify HTTP/1.1" 422 Unprocessable Content
+INFO:     127.0.0.1:53226 - "POST /api/commands/classify HTTP/1.1" 422 Unprocessable Content
+INFO:     127.0.0.1:53226 - "POST /api/commands/classify HTTP/1.1" 422 Unprocessable Content
+INFO:     127.0.0.1:53226 - "POST /api/commands/classify HTTP/1.1" 422 Unprocessable Content
+INFO:     127.0.0.1:53226 - "POST /api/commands/classify HTTP/1.1" 422 Unprocessable Content
+INFO:     127.0.0.1:53226 - "POST /api/commands/classify HTTP/1.1" 422 Unprocessable Content
+INFO:     127.0.0.1:53226 - "POST /api/commands/classify HTTP/1.1" 422 Unprocessable Content
+INFO:     127.0.0.1:53226 - "POST /api/commands/run HTTP/1.1" 422 Unprocessable Content
+INFO:     127.0.0.1:53226 - "GET /api/commands/jobs HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53226 - "GET /api/knowledge/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53226 - "GET /api/approvals HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53226 - "GET /api/system/audit-events HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53226 - "GET /api/system/startup-checks HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53237 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53239 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53246 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53251 - "GET /openapi.json HTTP/1.1" 200 OK
+2026-09-28 11:45:43 | INFO    | jarvis.audit | audit action=auth.login outcome=ok actor=11c10b872a4c470db09aec651c587761 target=user/11c10b872a4c470db09aec651c587761 workspace=None
+INFO:     127.0.0.1:53251 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53251 - "GET /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53251 - "GET /api/system/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53251 - "GET /api/system/hardware HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53251 - "GET /api/system/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53251 - "GET /api/system/agents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53251 - "GET /api/system/tools HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53251 - "POST /api/commands/classify HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53251 - "POST /api/commands/classify HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53251 - "POST /api/commands/classify HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53251 - "POST /api/commands/classify HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53251 - "POST /api/commands/classify HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53251 - "POST /api/commands/classify HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53251 - "POST /api/commands/classify HTTP/1.1" 200 OK
+2026-09-28 11:46:24 | INFO    | jarvis.audit | audit action=command.received outcome=ok actor=11c10b872a4c470db09aec651c587761 target=job/8af9dfb570a64c0db6fd9b1eff8bc0b7 workspace=shared
+2026-09-28 11:46:24 | INFO    | jarvis.audit | audit action=tool.system_health outcome=ok actor=11c10b872a4c470db09aec651c587761 target=job/8af9dfb570a64c0db6fd9b1eff8bc0b7 workspace=shared
+2026-09-28 11:46:29 | INFO    | jarvis.audit | audit action=command.completed outcome=succeeded actor=11c10b872a4c470db09aec651c587761 target=job/8af9dfb570a64c0db6fd9b1eff8bc0b7 workspace=shared
+INFO:     127.0.0.1:53251 - "POST /api/commands/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53251 - "GET /api/jobs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53251 - "GET /api/knowledge/mode HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53251 - "GET /api/knowledge/documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53251 - "GET /api/approvals HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53251 - "GET /api/system/audit-events HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53251 - "GET /api/startup-checks HTTP/1.1" 200 OK
